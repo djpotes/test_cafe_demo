@@ -1,0 +1,17 @@
+{
+  "name": "testcafedemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@applitools/eyes-testcafe": "^1.15.0",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "testcafe": "^1.17.1",
+    "testcafe-reporter-allure": "^1.0.5",
+    "testcafe-reporter-html": "^1.4.6",
+    "testcafe-reporter-reportportal": "^1.0.29"
+  }
+}

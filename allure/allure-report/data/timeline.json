@@ -1,0 +1,31 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "My Test",
+    "uid" : "22a80a328daf27a7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1638224220100,
+      "stop" : 1638224223048,
+      "duration" : 2948
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 96.0.4664.45 / Windows 10" ]
+  }, {
+    "name" : "My Test",
+    "uid" : "3a4869168b86d753",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1638224736578,
+      "stop" : 1638224739494,
+      "duration" : 2916
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "https://jira.example.ca/browse/story id", "https://jira.example.ca/secure/Tests.jspa#/testCase/test id", "test run id or identifier" ]
+  } ]
+}

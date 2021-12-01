@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638224220100' stop='1638224220108'>
+    <name>My Fixture</name>
+    <title>My Fixture</title>
+    <test-cases>
+        <test-case start='1638224220100' status='failed' stop='1638224223048'>
+            <name>My Test</name>
+            <title>My Test</title>
+            <labels>
+                <label name='severity' value='undefined'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='User Agent' value='Chrome 96.0.4664.45 / Windows 10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test has been broken</message>
+                <stack-trace>Failed to load the page at "http://myurl/".
+                Increase the value of the "pageRequestTimeout" variable, enable the "retryTestPages" option, or use quarantine mode to perform additional attempts to execute this test.
+                You can find troubleshooting information for this issue at "https://go.devexpress.com/TestCafe_FAQ_ARequestHasFailed.aspx".
+                
+                Error details:
+                Failed to find a DNS-record for the resource at "http://myurl/".
+                
+                Browser: Chrome 96.0.4664.45 / Windows 10</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

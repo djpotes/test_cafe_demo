@@ -1,0 +1,70 @@
+{
+  "uid" : "3a4869168b86d753",
+  "name" : "My Test",
+  "fullName" : "My Fixture.My Test",
+  "historyId" : "3ecab71531daea43f0e2cacfd92c4a87",
+  "time" : {
+    "start" : 1638224736578,
+    "stop" : 1638224739494,
+    "duration" : 2916
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "This test has been broken",
+  "statusTrace" : "Failed to load the page at \"http://myurl/\".\n                Increase the value of the \"pageRequestTimeout\" variable, enable the \"retryTestPages\" option, or use quarantine mode to perform additional attempts to execute this test.\n                You can find troubleshooting information for this issue at \"https://go.devexpress.com/TestCafe_FAQ_ARequestHasFailed.aspx\".\n                \n                Error details:\n                Failed to find a DNS-record for the resource at \"http://myurl/\".\n                \n                Browser: Chrome 96.0.4664.45 / Windows 10",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test run id or identifier"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "My Fixture"
+  }, {
+    "name" : "suite",
+    "value" : "My Fixture"
+  }, {
+    "name" : "testClass",
+    "value" : "My Fixture"
+  }, {
+    "name" : "testMethod",
+    "value" : "My Test"
+  }, {
+    "name" : "package",
+    "value" : "My Fixture"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "JIRA story link",
+    "value" : "https://jira.example.ca/browse/story id"
+  }, {
+    "name" : "Jira test link",
+    "value" : "https://jira.example.ca/secure/Tests.jspa#/testCase/test id"
+  }, {
+    "name" : "User Agent",
+    "value" : "test run id or identifier"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3a4869168b86d753.json",
+  "parameterValues" : [ "https://jira.example.ca/browse/story id", "https://jira.example.ca/secure/Tests.jspa#/testCase/test id", "test run id or identifier" ]
+}

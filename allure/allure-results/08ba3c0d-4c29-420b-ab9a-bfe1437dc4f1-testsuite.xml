@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638224736578' stop='1638224736584'>
+    <name>My Fixture</name>
+    <title>My Fixture</title>
+    <test-cases>
+        <test-case start='1638224736578' status='failed' stop='1638224739494'>
+            <name>My Test</name>
+            <title>My Test</title>
+            <labels>
+                <label name='feature' value='test run id or identifier'/>
+                <label name='story' value='My Fixture'/>
+                <label name='severity' value='blocker'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='User Agent' value='test run id or identifier'/>
+                <parameter kind='argument' name='JIRA story link' value='https://jira.example.ca/browse/story id'/>
+                <parameter kind='argument' name='Jira test link' value='https://jira.example.ca/secure/Tests.jspa#/testCase/test id'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test has been broken</message>
+                <stack-trace>Failed to load the page at "http://myurl/".
+                Increase the value of the "pageRequestTimeout" variable, enable the "retryTestPages" option, or use quarantine mode to perform additional attempts to execute this test.
+                You can find troubleshooting information for this issue at "https://go.devexpress.com/TestCafe_FAQ_ARequestHasFailed.aspx".
+                
+                Error details:
+                Failed to find a DNS-record for the resource at "http://myurl/".
+                
+                Browser: Chrome 96.0.4664.45 / Windows 10</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,58 @@
+{
+  "uid" : "22a80a328daf27a7",
+  "name" : "My Test",
+  "fullName" : "My Fixture.My Test",
+  "historyId" : "90eaa5d4e128a026e9b2db50f1d38314",
+  "time" : {
+    "start" : 1638224220100,
+    "stop" : 1638224223048,
+    "duration" : 2948
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "This test has been broken",
+  "statusTrace" : "Failed to load the page at \"http://myurl/\".\n                Increase the value of the \"pageRequestTimeout\" variable, enable the \"retryTestPages\" option, or use quarantine mode to perform additional attempts to execute this test.\n                You can find troubleshooting information for this issue at \"https://go.devexpress.com/TestCafe_FAQ_ARequestHasFailed.aspx\".\n                \n                Error details:\n                Failed to find a DNS-record for the resource at \"http://myurl/\".\n                \n                Browser: Chrome 96.0.4664.45 / Windows 10",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "My Fixture"
+  }, {
+    "name" : "testClass",
+    "value" : "My Fixture"
+  }, {
+    "name" : "testMethod",
+    "value" : "My Test"
+  }, {
+    "name" : "package",
+    "value" : "My Fixture"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 96.0.4664.45 / Windows 10"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "22a80a328daf27a7.json",
+  "parameterValues" : [ "Chrome 96.0.4664.45 / Windows 10" ]
+}
